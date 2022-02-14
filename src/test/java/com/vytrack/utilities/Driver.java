@@ -14,6 +14,7 @@ import org.openqa.selenium.safari.SafariDriver;
 
 public class Driver {
     private Driver() {
+        //final??
 
     }
 
