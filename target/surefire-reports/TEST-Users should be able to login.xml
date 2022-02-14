@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Users should be able to login" time="8.687" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Users should be able to login" time="11.499" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="java.specification.version" value="1.8"/>
-    <property name="webdriver.chrome.driver" value="/Users/test/.m2/repository/webdriver/chromedriver/mac64/98.0.4758.80/chromedriver"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.class.path" value="/Users/test/IdeaProjects/EU7CucumberSelenium/target/test-classes:/Users/test/IdeaProjects/EU7CucumberSelenium/target/classes:/Users/test/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/test/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/test/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/test/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/test/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/test/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/test/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/test/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/test/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/test/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/test/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/test/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/test/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/test/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/test/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/test/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/test/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/test/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/test/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/test/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/test/.m2/repository/io/github/bonigarcia/webdrivermanager/4.1.0/webdrivermanager-4.1.0.jar:/Users/test/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/test/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/Users/test/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/test/.m2/repository/org/apache/commons/commons-lang3/3.10/commons-lang3-3.10.jar:/Users/test/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.1/httpclient5-5.0.1.jar:/Users/test/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.1/httpcore5-5.0.1.jar:/Users/test/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.1/httpcore5-h2-5.0.1.jar:/Users/test/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/test/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/test/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/test/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/test/.m2/repository/io/cucumber/cucumber-java/5.7.0/cucumber-java-5.7.0.jar:/Users/test/.m2/repository/io/cucumber/cucumber-core/5.7.0/cucumber-core-5.7.0.jar:/Users/test/.m2/repository/io/cucumber/cucumber-gherkin/5.7.0/cucumber-gherkin-5.7.0.jar:/Users/test/.m2/repository/io/cucumber/cucumber-gherkin-vintage/5.7.0/cucumber-gherkin-vintage-5.7.0.jar:/Users/test/.m2/repository/io/cucumber/tag-expressions/2.0.4/tag-expressions-2.0.4.jar:/Users/test/.m2/repository/io/cucumber/cucumber-expressions/8.3.1/cucumber-expressions-8.3.1.jar:/Users/test/.m2/repository/io/cucumber/datatable/3.3.1/datatable-3.3.1.jar:/Users/test/.m2/repository/io/cucumber/cucumber-plugin/5.7.0/cucumber-plugin-5.7.0.jar:/Users/test/.m2/repository/io/cucumber/docstring/5.7.0/docstring-5.7.0.jar:/Users/test/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/test/.m2/repository/io/cucumber/cucumber-junit/5.7.0/cucumber-junit-5.7.0.jar:/Users/test/.m2/repository/junit/junit/4.13/junit-4.13.jar:/Users/test/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/test/.m2/repository/mysql/mysql-connector-java/8.0.19/mysql-connector-java-8.0.19.jar:/Users/test/.m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar:"/>
@@ -19,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib"/>
-    <property name="sun.java.command" value="/Users/test/IdeaProjects/EU7CucumberSelenium/target/surefire/surefirebooter3313440799523988360.jar /Users/test/IdeaProjects/EU7CucumberSelenium/target/surefire 2022-02-14T16-21-27_976-jvmRun1 surefire3740632488071443707tmp surefire_06942473521093516891tmp"/>
+    <property name="sun.java.command" value="/Users/test/IdeaProjects/EU7CucumberSelenium/target/surefire/surefirebooter5122302908403770190.jar /Users/test/IdeaProjects/EU7CucumberSelenium/target/surefire 2022-02-14T17-09-16_645-jvmRun1 surefire1944372685520433546tmp surefire_0518156322302842073tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="surefire.test.class.path" value="/Users/test/IdeaProjects/EU7CucumberSelenium/target/test-classes:/Users/test/IdeaProjects/EU7CucumberSelenium/target/classes:/Users/test/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/test/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/test/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/test/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/test/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/test/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/test/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/test/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/test/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/test/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/test/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/test/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/test/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/test/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/test/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/test/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/test/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/test/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/test/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/test/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/test/.m2/repository/io/github/bonigarcia/webdrivermanager/4.1.0/webdrivermanager-4.1.0.jar:/Users/test/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/test/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/Users/test/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/test/.m2/repository/org/apache/commons/commons-lang3/3.10/commons-lang3-3.10.jar:/Users/test/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.1/httpclient5-5.0.1.jar:/Users/test/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.1/httpcore5-5.0.1.jar:/Users/test/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.1/httpcore5-h2-5.0.1.jar:/Users/test/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/test/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/test/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/test/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/test/.m2/repository/io/cucumber/cucumber-java/5.7.0/cucumber-java-5.7.0.jar:/Users/test/.m2/repository/io/cucumber/cucumber-core/5.7.0/cucumber-core-5.7.0.jar:/Users/test/.m2/repository/io/cucumber/cucumber-gherkin/5.7.0/cucumber-gherkin-5.7.0.jar:/Users/test/.m2/repository/io/cucumber/cucumber-gherkin-vintage/5.7.0/cucumber-gherkin-vintage-5.7.0.jar:/Users/test/.m2/repository/io/cucumber/tag-expressions/2.0.4/tag-expressions-2.0.4.jar:/Users/test/.m2/repository/io/cucumber/cucumber-expressions/8.3.1/cucumber-expressions-8.3.1.jar:/Users/test/.m2/repository/io/cucumber/datatable/3.3.1/datatable-3.3.1.jar:/Users/test/.m2/repository/io/cucumber/cucumber-plugin/5.7.0/cucumber-plugin-5.7.0.jar:/Users/test/.m2/repository/io/cucumber/docstring/5.7.0/docstring-5.7.0.jar:/Users/test/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/test/.m2/repository/io/cucumber/cucumber-junit/5.7.0/cucumber-junit-5.7.0.jar:/Users/test/.m2/repository/junit/junit/4.13/junit-4.13.jar:/Users/test/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/test/.m2/repository/mysql/mysql-connector-java/8.0.19/mysql-connector-java-8.0.19.jar:/Users/test/.m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/test/IdeaProjects/EU7CucumberSelenium/target/surefire/surefirebooter3313440799523988360.jar"/>
+    <property name="surefire.real.class.path" value="/Users/test/IdeaProjects/EU7CucumberSelenium/target/surefire/surefirebooter5122302908403770190.jar"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
@@ -44,6 +43,7 @@
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/endorsed"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
+    <property name="browser" value="firefox"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="localRepository" value="/Users/test/.m2/repository"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
@@ -51,6 +51,7 @@
     <property name="java.version" value="1.8.0_281"/>
     <property name="user.dir" value="/Users/test/IdeaProjects/EU7CucumberSelenium"/>
     <property name="os.arch" value="x86_64"/>
+    <property name="webdriver.gecko.driver" value="/Users/test/.m2/repository/webdriver/geckodriver/macos/0.30.0/geckodriver"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
     <property name="sun.os.patch.level" value="unknown"/>
@@ -63,10 +64,10 @@
     <property name="java.class.version" value="52.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="Login as a store manager" classname="Users should be able to login" time="8.687">
+  <testcase name="Login as a store manager" classname="Users should be able to login" time="11.499">
     <failure message="expected:&lt;[Dashboard]&gt; but was:&lt;[Login]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[Dashboard]> but was:<[Login]>
 ]]></failure>
-    <system-out><![CDATA[Feb 14, 2022 4:21:29 PM io.cucumber.junit.Cucumber <init>
+    <system-out><![CDATA[Feb 14, 2022 5:09:18 PM io.cucumber.junit.Cucumber <init>
 WARNING: By default Cucumber is running in --non-strict mode.
 This default will change to --strict and --non-strict will be removed.
 You can use --strict or @CucumberOptions(strict = true) to suppress this warning
@@ -76,7 +77,7 @@ You can use --strict or @CucumberOptions(strict = true) to suppress this warning
 
 1 Scenarios (&amp#27;[31m1 failed&amp#27;[0m)
 3 Steps (&amp#27;[31m1 failed&amp#27;[0m, &amp#27;[32m2 passed&amp#27;[0m)
-0m8.697s
+0m11.504s
 
 
 org.junit.ComparisonFailure: expected:<[Dashboard]> but was:<[Login]>
@@ -91,12 +92,17 @@ org.junit.ComparisonFailure: expected:<[Dashboard]> but was:<[Login]>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}) on port 24775
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Feb 14, 2022 4:21:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+1644854960630	geckodriver	INFO	Listening on 127.0.0.1:9779
+1644854960901	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/th/64kxz3lj27z4d96gjjvwjy680000gn/T/rust_mozprofile3N8Meb"
+1644854961392	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/th/64kxz3lj27z4d96gjjvwjy680000gn/T/rust_mozprofile3N8Meb/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1644854964177	Marionette	INFO	Listening on port 63225
+1644854964283	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Feb 14, 2022 5:09:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
+1644854969245	Marionette	INFO	Stopped listening on port 63225
 ]]></system-err>
   </testcase>
 </testsuite>
