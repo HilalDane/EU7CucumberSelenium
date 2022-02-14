@@ -1,0 +1,16 @@
+/Users/test/IdeaProjects/EU7CucumberSelenium/src/test/java/com/vytrack/pages/BasePage.java
+/Users/test/IdeaProjects/EU7CucumberSelenium/src/test/java/com/vytrack/utilities/Driver.java
+/Users/test/IdeaProjects/EU7CucumberSelenium/src/test/java/com/vytrack/step_definitions/Hooks.java
+/Users/test/IdeaProjects/EU7CucumberSelenium/src/test/java/com/vytrack/step_definitions/ContactsStepDefs.java
+/Users/test/IdeaProjects/EU7CucumberSelenium/src/test/java/com/vytrack/step_definitions/LoginStepDefs.java
+/Users/test/IdeaProjects/EU7CucumberSelenium/src/test/java/com/vytrack/runners/CukesRunner.java
+/Users/test/IdeaProjects/EU7CucumberSelenium/src/test/java/com/vytrack/step_definitions/NavigationMenuStepDefs.java
+/Users/test/IdeaProjects/EU7CucumberSelenium/src/test/java/com/vytrack/pages/CalendarEventsPage.java
+/Users/test/IdeaProjects/EU7CucumberSelenium/src/test/java/com/vytrack/pages/LoginPage.java
+/Users/test/IdeaProjects/EU7CucumberSelenium/src/test/java/com/vytrack/runners/FailedTestRunner.java
+/Users/test/IdeaProjects/EU7CucumberSelenium/src/test/java/com/vytrack/pages/ContactsPage.java
+/Users/test/IdeaProjects/EU7CucumberSelenium/src/test/java/com/vytrack/utilities/ConfigurationReader.java
+/Users/test/IdeaProjects/EU7CucumberSelenium/src/test/java/com/vytrack/utilities/BrowserUtils.java
+/Users/test/IdeaProjects/EU7CucumberSelenium/src/test/java/com/vytrack/pages/ContactInfoPage.java
+/Users/test/IdeaProjects/EU7CucumberSelenium/src/test/java/com/vytrack/pages/CreateCalendarEventsPage.java
+/Users/test/IdeaProjects/EU7CucumberSelenium/src/test/java/com/vytrack/pages/DashboardPage.java
