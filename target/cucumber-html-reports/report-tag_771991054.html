@@ -76,7 +76,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>Cucumber HTML Reports</td>
         <td>1</td>
-      <td>14 Feb 2022, 17:09</td>
+      <td>17 Feb 2022, 17:19</td>
     </tr>
   </tbody>
 </table>
@@ -129,9 +129,9 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">@store_manager</td>
-          <td      class="passed"    >2</td>
+          <td      class="passed"    >1</td>
           <td      class="failed"    >1</td>
-          <td >0</td>
+          <td     class="skipped"   >1</td>
           <td >0</td>
           <td >0</td>
           <td class="total">3</td>
@@ -140,7 +140,7 @@ $(document).ready(function() {
           <td  class="failed"    >1</td>
           <td class="total">1</td>
 
-          <td class="duration" data-value="9959000000">9.959</td>
+          <td class="duration" data-value="4080000000">4.080</td>
           <td class="failed">Failed</td>
         </tr>
         </tbody>
@@ -180,12 +180,13 @@ $(document).ready(function() {
 <div class="tags indention">
     <b>Tags:</b>
        <a href="report-tag_4082898728.html">@login</a>
+       <a href="report-tag_2149507997.html">@wip</a>
        <a href="report-tag_771991054.html">@store_manager</a>
        <a href="report-tag_4089311534.html">@smoke</a>
 </div>
 
 
-  <span class="lead-duration duration">9.959</span>
+  <span class="lead-duration duration">4.080</span>
 
 
   <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
@@ -223,7 +224,7 @@ $(document).ready(function() {
             <span class="keyword indention">Before</span>
               <span class="location name">com.vytrack.step_definitions.Hooks.setUp()</span>
 
-  <span class="lead-duration duration">0.002</span>
+  <span class="lead-duration duration">0.000</span>
 
           </div>
 
@@ -260,7 +261,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">the user is on the login page</span>
 
-  <span class="lead-duration duration">6.940</span>
+  <span class="lead-duration duration">3.996</span>
 
 </div>
 
@@ -283,38 +284,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-When passed">
+<div class="brief step-name-When failed">
   <span class="keyword indention">When</span>
   <span class="name">the user enters store manager information</span>
 
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-Then failed">
-  <span class="keyword indention">Then</span>
-  <span class="name">the user should be able to login</span>
-
-  <span class="lead-duration duration">3.019</span>
+  <span class="lead-duration duration">0.084</span>
 
 </div>
 
@@ -326,18 +300,64 @@ $(document).ready(function() {
   <div class="inner-level">
     <div class="message indention">
       <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-4">
-          <a>org.junit.ComparisonFailure:</a>
+          <a>org.openqa.selenium.NoSuchElementException:</a>
       </div>
       <div id="msg-4" class="collapse collapsable-details  in ">
-        <pre>org.junit.ComparisonFailure: expected:&lt;[Dashboard]&gt; but was:&lt;[Login]&gt;
-	at org.junit.Assert.assertEquals(Assert.java:117)
-	at org.junit.Assert.assertEquals(Assert.java:146)
-	at com.vytrack.step_definitions.LoginStepDefs.the_user_should_be_able_to_login(LoginStepDefs.java:34)
-	at &#10045;.the user should be able to login(file:///Users/test/IdeaProjects/EU7CucumberSelenium/src/test/resources/features/login.feature:27)
+        <pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//iframe[@class='bx-editor-iframe']&quot;}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'tests-MBP', ip: '2a02:908:95a:d680:0:0:0:4c9f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: /var/folders/th/64kxz3lj27z...}, goog:chromeOptions: {debuggerAddress: localhost:62946}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://192.168.0.57:4444/sess..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ef2d72cc73cc41eee476b9cb046b83d5
+*** Element info: {Using=xpath, value=//iframe[@class='bx-editor-iframe']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.vytrack.step_definitions.LoginStepDefs.theUserEntersStoreManagerInformation(LoginStepDefs.java:78)
+	at &#10045;.the user enters store manager information(file:///Users/test/IdeaProjects/EU7CucumberSelenium/src/test/resources/features/login.feature:26)
 </pre>
       </div>
     </div>
   </div>
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">the user should be able to login</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
 
 
 
@@ -375,7 +395,7 @@ $(document).ready(function() {
             <span class="keyword indention">After</span>
               <span class="location name">com.vytrack.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">1.342</span>
+  <span class="lead-duration duration">1.190</span>
 
           </div>
 
@@ -388,13 +408,13 @@ $(document).ready(function() {
   <div class="embedding indention">
     <div data-toggle="collapse" data-target="#embedding-6" class="collapsable-control">
       <a>screenshot</a>
-      <a href="embeddings/embedding_632984512.png" download target="_blank">
+      <a href="embeddings/embedding_445900527.png" download target="_blank">
         <span class="download-button glyphicon glyphicon-download-alt"></span>
       </a>
     </div>
     <div id="embedding-6" class="collapse collapsable-details ">
       <div class="embedding-content">
-        <img src="embeddings/embedding_632984512.png">
+        <img src="embeddings/embedding_445900527.png">
       </div>
     </div>
   </div>
