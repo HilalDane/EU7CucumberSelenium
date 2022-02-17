@@ -8,6 +8,8 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 
 public class LoginStepDefs {
     @Given("the user is on the login page")
@@ -73,7 +75,11 @@ public class LoginStepDefs {
 
     @When("the user enters store manager information")
     public void theUserEntersStoreManagerInformation() {
+       WebElement element = Driver.get().findElement(By.xpath("//iframe[@class='bx-editor-iframe']"));
+        Driver.get().switchTo().frame(element);
+
     }
+
 
 
 

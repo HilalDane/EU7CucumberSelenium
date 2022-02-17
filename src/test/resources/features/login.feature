@@ -4,7 +4,7 @@ Feature: Users should be able to login
 
 
 
-  @driver  @VYT-123
+  @driver  @VYT-123 @log
   Scenario: Login as a driver
 
     Given the user is on the login page

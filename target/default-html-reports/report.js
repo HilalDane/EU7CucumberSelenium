@@ -10,7 +10,7 @@ formatter.feature({
   ]
 });
 formatter.scenario({
-  "name": "Login as a store manager",
+  "name": "Login as a driver",
   "description": "",
   "keyword": "Scenario",
   "tags": [
@@ -18,10 +18,13 @@ formatter.scenario({
       "name": "@login"
     },
     {
-      "name": "@store_manager"
+      "name": "@driver"
     },
     {
-      "name": "@smoke"
+      "name": "@VYT-123"
+    },
+    {
+      "name": "@log"
     }
   ]
 });
@@ -39,11 +42,11 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "the user enters store manager information",
+  "name": "the user enters the driver information",
   "keyword": "When "
 });
 formatter.match({
-  "location": "com.vytrack.step_definitions.LoginStepDefs.theUserEntersStoreManagerInformation()"
+  "location": "com.vytrack.step_definitions.LoginStepDefs.the_user_enters_the_driver_information()"
 });
 formatter.result({
   "status": "passed"
@@ -56,10 +59,8 @@ formatter.match({
   "location": "com.vytrack.step_definitions.LoginStepDefs.the_user_should_be_able_to_login()"
 });
 formatter.result({
-  "error_message": "org.junit.ComparisonFailure: expected:\u003c[Dashboard]\u003e but was:\u003c[Login]\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:117)\n\tat org.junit.Assert.assertEquals(Assert.java:146)\n\tat com.vytrack.step_definitions.LoginStepDefs.the_user_should_be_able_to_login(LoginStepDefs.java:34)\n\tat ✽.the user should be able to login(file:///Users/test/IdeaProjects/EU7CucumberSelenium/src/test/resources/features/login.feature:27)\n",
-  "status": "failed"
+  "status": "passed"
 });
-formatter.embedding("image/png", "embedded0.png", "screenshot");
 formatter.after({
   "status": "passed"
 });

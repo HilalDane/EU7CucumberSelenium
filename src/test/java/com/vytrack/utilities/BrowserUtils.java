@@ -1,4 +1,3 @@
-
 package com.vytrack.utilities;
 
 import org.junit.Assert;
